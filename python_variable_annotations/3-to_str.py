@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Module containing a type-annotated function to convert a float to a string."""
+"""Module containing a type-annotated function."""
 
 
 def to_str(n: float) -> str:
