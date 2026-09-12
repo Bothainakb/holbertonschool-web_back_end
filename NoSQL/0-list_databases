@@ -1,3 +1,2 @@
-#!/usr/bin/env bash
-dbs=$(mongo --quiet --eval 'db.adminCommand("listDatabases").databases')
-echo "$dbs" | grep -o '"name" : "[^"]*"' | cut -d'"' -f4
+// List all databases
+show dbs
