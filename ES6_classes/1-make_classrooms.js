@@ -1,10 +1,14 @@
 #!/usr/bin/env node
 /**
- * Defines a ClassRoom class.
+ * Creates an array of ClassRoom objects.
  */
 
-export default class ClassRoom {
-  constructor(maxStudentsSize) {
-    this._maxStudentsSize = maxStudentsSize;
-  }
+import ClassRoom from './0-classroom.js';
+
+export default function initializeRooms() {
+  return [
+    new ClassRoom(19),
+    new ClassRoom(20),
+    new ClassRoom(34),
+  ];
 }
